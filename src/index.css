@@ -1,0 +1,47 @@
+ul.scrollable-list { 
+    overflow-y: auto;  
+    list-style-type: none; 
+    padding: 0; 
+    background-color: #222529;
+  }
+  .favoritos-dropdown {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: black;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    z-index: 1000;
+  }
+  
+  .favoritos-btn {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .favoritos-list {
+    margin-top: 10px;
+    max-height: 200px;
+    overflow-y: auto;
+    border-top: 1px solid white;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .favorito-item {
+    padding: 8px 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .favorito-item:hover {
+    background-color: #222529;
+  }
