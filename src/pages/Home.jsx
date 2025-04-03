@@ -60,7 +60,7 @@ export const Home = () => {
         <FavoritosDropdown />
       </div>
 
-      <h1>Lista of planets</h1>
+      <h1>List of planets</h1>
       <ul className="d-flex scrollable-list p-2">
         {store.planets && store.planets.length > 0 ? (
           store.planets.map((planet) => (
